@@ -50,8 +50,8 @@ async def op(_, m :Message):
                         InlineKeyboardButton("🍿 Movie Group 🍿", url="https://t.me/Cinema_Paradize"),
                         InlineKeyboardButton("❄️ CP Links ❄️", url="https://t.me/Cineparadise_Links")
                     ],[
-                        inlinekeyboardbutton("🎬 OTT Movies 🎬", url="https://t.me/cine_Paradise"),
-                        inlinekeyboardbutton("🥀 Owner 🥀", url="https://t.me/cine_paradise")
+                        Inlinekeyboardbutton("🎬 OTT Movies 🎬", url="https://t.me/cine_Paradise"),
+                        Inlinekeyboardbutton("🥀 Owner 🥀", url="https://t.me/cine_paradise")
                     ],[
                         InlineKeyboardButton("🔰 Join Updates Channel 🔰", url="http://t.me/Hell_Botz")
                     ]
@@ -97,8 +97,8 @@ async def chk(_, cb : CallbackQuery):
                         InlineKeyboardButton("🍿 Movie Group 🍿", url="https://t.me/Cinema_Paradize"),
                         InlineKeyboardButton("❄️ CP Links ❄️", url="https://t.me/Cineparadise_Links")
                     ],[
-                        inlinekeyboardbutton("🎬 OTT Movies 🎬", url="https://t.me/cine_Paradise"),
-                        inlinekeyboardbutton("🥀 Owner 🥀", url="https://t.me/cine_paradise")
+                        Inlinekeyboardbutton("🎬 OTT Movies 🎬", url="https://t.me/cine_Paradise"),
+                        Inlinekeyboardbutton("🥀 Owner 🥀", url="https://t.me/cine_paradise")
                     ],[
                         InlineKeyboardButton("🔰 Join Updates Channel 🔰", url="http://t.me/Hell_Botz")
                     ]
