@@ -45,10 +45,15 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔈 Updates 🔈", url="https://t.me/cineparadise_links"),
-                        InlineKeyboardButton("🔰 Channel 🔰", url="https://t.me/Cine_paradise")
-                    ],[
                         InlineKeyboardButton("+ Add me to your Chat +", url="http://t.me/AutoApprove_Rbot?startchannel=True")
+                    ],[    
+                        InlineKeyboardButton("🍿 Movie Group 🍿", url="https://t.me/Cinema_Paradize"),
+                        InlineKeyboardButton("❄️ CP Links ❄️", url="https://t.me/Cineparadise_Links")
+                    ],[
+                        inlinekeyboardbutton("🎬 OTT Movies 🎬", url="https://t.me/cine_Paradise"),
+                        inlinekeyboardbutton("🥀 Owner 🥀", url="https://t.me/cine_paradise")
+                    ],[
+                        InlineKeyboardButton("🔰 Join Updates Channel 🔰", url="http://t.me/Hell_Botz")
                     ]
                 ]
             )
@@ -87,10 +92,15 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔈 Updates 🔈", url="https://t.me/cineparadise_links"),
-                        InlineKeyboardButton("🔰 Channel 🔰", url="https://t.me/Cine_paradise")
-                    ],[
                         InlineKeyboardButton("+ Add me to your Chat +", url="http://t.me/AutoApprove_Rbot?startchannel=True")
+                    ],[    
+                        InlineKeyboardButton("🍿 Movie Group 🍿", url="https://t.me/Cinema_Paradize"),
+                        InlineKeyboardButton("❄️ CP Links ❄️", url="https://t.me/Cineparadise_Links")
+                    ],[
+                        inlinekeyboardbutton("🎬 OTT Movies 🎬", url="https://t.me/cine_Paradise"),
+                        inlinekeyboardbutton("🥀 Owner 🥀", url="https://t.me/cine_paradise")
+                    ],[
+                        InlineKeyboardButton("🔰 Join Updates Channel 🔰", url="http://t.me/Hell_Botz")
                     ]
                 ]
             )
